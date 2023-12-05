@@ -11,7 +11,7 @@ const Component = () => {
   }, [router]);
 
   return (
-    <Link className={styles.a} href="/frame">
+    <Link className={styles.a} href="/frame4">
       <div className={styles.div} />
       <div className={styles.div1} />
       <img className={styles.icon} alt="" src="/--3@2x.png" />
