@@ -20,9 +20,7 @@ const Frame = () => {
       <div className={styles.div6}>
         <span className={styles.txt}>
           aspirin
-  <br> 
-  formula is in <br>
-  UIPAC format
+          UIPAC format
         </span>
       </div>
       <div className={styles.div7} onClick={onContainerClick}>
