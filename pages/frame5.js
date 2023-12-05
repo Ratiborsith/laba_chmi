@@ -39,7 +39,7 @@ const Frame5 = () => {
         </div>
         <div className={styles.div9}>
           <div className={styles.child} />
-          <div className={styles.item} />
+          <div className={`${styles.item} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
         </div>
       </div>
 
