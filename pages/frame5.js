@@ -43,7 +43,7 @@ const Frame5 = () => {
         </div>
       </div>
 
-  // изменение свитчбатона
+  
   <div className={styles.div10} onClick={onSwitchClick}>
         <div className={styles.div11}>
           <div className={styles.inner} />
