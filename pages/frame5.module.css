@@ -151,6 +151,7 @@
   left: 909px;
   width: 250px;
   height: 125px;
+  overflow: auto; /* Add this line to make the content scrollable */
 }
 .div11,
 .mol,
@@ -183,7 +184,7 @@
   left: 119px;
   width: 1159px;
   height: 250px;
-  overflow: auto; /* Add this line to make the content scrollable */
+  
 }
 
 
