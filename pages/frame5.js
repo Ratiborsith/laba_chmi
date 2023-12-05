@@ -6,7 +6,7 @@ import styles from "./frame5.module.css";
 const Frame5 = () => {
   const router = useRouter();
   const [isSwitchOn, setIsSwitchOn] = useState(false);
-
+  const [isSwitch1On, setIsSwitch1On] = useState(false);
   const onContainerClick = useCallback(() => {
     router.push("/frame4");
   }, [router]);
@@ -14,6 +14,12 @@ const Frame5 = () => {
   const onSwitchClick = useCallback(() => {
     // Инвертируем текущее состояние switch при клике
     setIsSwitchOn((prev) => !prev);
+    // Дополнительные действия, если необходимо
+  }, []);
+
+  const onSwitch1Click = useCallback(() => {
+    // Инвертируем текущее состояние switch при клике
+    setIsSwitch1On((prev) => !prev);
     // Дополнительные действия, если необходимо
   }, []);
 
@@ -39,7 +45,7 @@ const Frame5 = () => {
         </div>
         <div className={styles.div9}>
           <div className={styles.child} />
-          <div className={`${styles.item} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
+          <div className={`${styles.item} ${isSwitch1On ? styles.switch1On : styles.switch1Off}`} />
         </div>
       </div>
 
