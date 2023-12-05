@@ -151,7 +151,6 @@
   left: 909px;
   width: 250px;
   height: 125px;
-  overflow: auto; /* Add this line to make the content scrollable */
 }
 .div11,
 .mol,
@@ -211,4 +210,14 @@
   font-size: var(--font-size-11xl);
   color: var(--color-black);
   font-family: var(--font);
+}
+
+.switchOn {
+  background-color: var(--color-green); /* Цвет для включенного состояния */
+  color: var(--color-white); /* Цвет текста для включенного состояния */
+}
+
+.switchOff {
+  background-color: var(--color-gray); /* Цвет для выключенного состояния */
+  color: var(--color-black); /* Цвет текста для выключенного состояния */
 }
