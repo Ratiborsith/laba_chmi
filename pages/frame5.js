@@ -1,5 +1,6 @@
-// Импорт файла стилей для кастомного scroll bar
-import scrollStyles from "./frame5.module.css";
+import { useCallback } from "react";
+import { useRouter } from "next/router";
+import styles from "./frame5.module.css";
 
 const Frame5 = () => {
   const router = useRouter();
@@ -9,7 +10,7 @@ const Frame5 = () => {
   }, [router]);
 
   return (
-    <div className={`${styles.div} ${scrollStyles.scroll-container}`}>
+    <div className={styles.div}>
       <div className={styles.div1} />
       <div className={styles.div2} />
       <div className={styles.div3} />
@@ -31,13 +32,14 @@ const Frame5 = () => {
           <div className={styles.item} />
         </div>
       </div>
-
-      {/* Кастомный scroll bar здесь */}
-      <div className={`${styles.div10} ${scrollStyles.scroll-container}`}>
+      <div className={styles.div10}>
+        <div className={styles.div11}>
+          <div className={styles.inner} />
+          <div className={styles.rectangleDiv} />
+        </div>
         <img className={styles.molIcon} alt="" src="/-mol@2x.png" />
         <div className={styles.mol}>Выводить всё в MOL</div>
       </div>
-
       <div className={styles.div12}>Настройки</div>
     </div>
   );
