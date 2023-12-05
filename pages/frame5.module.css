@@ -222,3 +222,18 @@
 .switchOff {
   background: linear-gradient(#aadb93, #aadb93), #a4c238;
 }
+
+
+
+
+.switch1On {
+  background: linear-gradient(#a4c238, #a4c238), #a4c238;
+  
+
+  
+}
+
+.switch1Off {
+  background: linear-gradient(#aadb93, #aadb93), #a4c238;
+}
+
