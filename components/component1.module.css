@@ -1,0 +1,22 @@
+.component1,
+.component1Child {
+  border-radius: var(--br-101xl);
+  border: 6px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component1Child {
+  position: absolute;
+  top: 12px;
+  left: 25px;
+  background-color: var(--color-darkmagenta);
+  width: 100px;
+  height: 100px;
+  opacity: 0.2;
+}
+.component1 {
+  background-color: var(--color-lightpink);
+  width: 250px;
+  height: 125px;
+  overflow: hidden;
+  display: none;
+}
