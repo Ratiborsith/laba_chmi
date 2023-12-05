@@ -46,7 +46,7 @@ const Frame5 = () => {
   
   <div className={styles.div10} onClick={onSwitchClick}>
         <div className={styles.div11}>
-          <div className={`${styles.mol} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
+          <div className={`${styles.inner} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
           <div className={styles.rectangleDiv} />
         </div>
         {/* Добавлено состояние switch в качестве класса */}
