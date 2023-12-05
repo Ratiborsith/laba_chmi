@@ -43,7 +43,7 @@ const Frame1 = () => {
       <div className={styles.div11}>
         <div className={styles.div12} />
         <div className={styles.div13}>Скачать</div>
-        <img className={styles.icon2} alt="" src="/11@2x.png" />
+        <img className={styles.icon2} alt="" src="/1@2x.png" />
       </div>
     </div>
   );
