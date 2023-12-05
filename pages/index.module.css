@@ -16,8 +16,6 @@
   top: 716px;
   background-color: var(--color-lime-100);
   filter: blur(300px);
-  width: 1440px;
-  height: 308px;
 }
 .icon {
   top: 0;
