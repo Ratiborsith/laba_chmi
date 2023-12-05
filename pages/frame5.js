@@ -22,7 +22,9 @@ const Frame5 = () => {
       <div className={styles.div1} />
       <div className={styles.div2} />
       <div className={styles.div3} />
-      <div className={styles.div4} />
+      // ВОТ ТУТ СВИТЧБАТОН
+      //<div className={styles.div4} />
+  
       <div className={styles.div5} onClick={onContainerClick}>
         <div className={styles.div6} />
         <div className={styles.div7}>Назад</div>
