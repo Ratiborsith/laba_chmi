@@ -43,9 +43,9 @@ const Frame5 = () => {
             <p className={styles.p}>Smiles</p>
           </span>
         </div>
-        <div className={styles.div9}>
-          <div className={styles.child} />
-          <div className={`${styles.item} ${isSwitch1On ? styles.switch1On : styles.switch1Off}`} />
+        <div className={styles.div9} onClick={onSwitchClick}>
+          <div className={`${styles.inner} ${isSwitch1On ? styles.switch1On : styles.switch1Off}`} />
+          <div className={`${styles.rectangleDiv} ${isSwitch1On ? styles.switch1On : styles.switch1Off}`} />
         </div>
       </div>
 
