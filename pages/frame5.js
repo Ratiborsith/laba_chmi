@@ -32,11 +32,11 @@ const Frame5 = () => {
           <div className={styles.item} />
         </div>
       </div>
-      <div className={styles.div10}>
-        <div className={styles.div11}>
-          <div className={styles.inner} />
-          <div className={styles.rectangleDiv} />
-        </div>
+
+  
+      
+
+  
         <img className={styles.molIcon} alt="" src="/-mol@2x.png" />
         <div className={styles.mol}>Выводить всё в MOL</div>
       </div>
