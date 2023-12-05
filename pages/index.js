@@ -19,7 +19,10 @@ const Frame = () => {
       <img className={styles.icon} alt="" src="/@2x.png" />
       <div className={styles.div6}>
         <span className={styles.txt}>
-          hello world
+          aspirin
+  <br> 
+  formula is in <br>
+  UIPAC format
         </span>
       </div>
       <div className={styles.div7} onClick={onContainerClick}>
