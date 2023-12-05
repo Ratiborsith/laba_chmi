@@ -1,13 +1,21 @@
-import { useCallback } from "react";
+// frame5.js
+import { useState, useCallback } from "react";
 import { useRouter } from "next/router";
 import styles from "./frame5.module.css";
 
 const Frame5 = () => {
   const router = useRouter();
+  const [isSwitchOn, setIsSwitchOn] = useState(false);
 
   const onContainerClick = useCallback(() => {
     router.push("/frame4");
   }, [router]);
+
+  const onSwitchClick = useCallback(() => {
+    // Инвертируем текущее состояние switch при клике
+    setIsSwitchOn((prev) => !prev);
+    // Дополнительные действия, если необходимо
+  }, []);
 
   return (
     <div className={styles.div}>
@@ -32,14 +40,25 @@ const Frame5 = () => {
           <div className={styles.item} />
         </div>
       </div>
-      <div className={styles.div10}>
+
+  // изменение свитчбатона
+  <div className={styles.div10} onClick={onSwitchClick}>
         <div className={styles.div11}>
           <div className={styles.inner} />
           <div className={styles.rectangleDiv} />
         </div>
-        <img className={styles.molIcon} alt="" src="/-mol@2x.png" />
-        <div className={styles.mol}>Выводить всё в MOL</div>
+        {/* Добавлено состояние switch в качестве класса */}
+        <div className={`${styles.mol} ${isSwitchOn ? styles.switchOn : styles.switchOff}`}>
+          Выводить всё в MOL
+        </div>
       </div>
+
+  
+     
+
+
+
+  
       <div className={styles.div12}>Настройки</div>
     </div>
   );
