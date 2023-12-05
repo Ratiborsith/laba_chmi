@@ -208,26 +208,3 @@
   color: var(--color-black);
   font-family: var(--font);
 }
-
-/* styles.module.css */
-
-/* Общие стили для контейнера с контентом */
-.scroll-container {
-  max-height: 300px; /* Задайте максимальную высоту контейнера */
-  overflow-y: auto; /* Разрешите вертикальную прокрутку, если контент превышает высоту контейнера */
-}
-
-/* Кастомный scroll bar */
-.scroll-container::-webkit-scrollbar {
-  width: 12px;
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-  background-color: #888; /* Цвет ползунка */
-  border-radius: 6px; /* Скругление углов ползунка */
-}
-
-.scroll-container::-webkit-scrollbar-track {
-  background-color: #eee; /* Цвет фона трека */
-}
-
