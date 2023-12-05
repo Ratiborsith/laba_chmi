@@ -36,10 +36,6 @@ const Frame5 = () => {
   <div className={styles.div10}>
 
 
- 
-    <div className={styles.scroll-container}>
-      {/* Ваш контент здесь */}
-    </div>
 
       
 
