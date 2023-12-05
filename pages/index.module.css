@@ -1,117 +1,65 @@
-.div1 {
-  top: 27px;
-  left: 52px;
-  border-radius: var(--br-101xl);
-  background-color: var(--color-palegreen);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 1334px;
-  height: 970px;
-}
-.div1,
-.div2,
-.div3 {
-  position: absolute;
-}
-.div2 {
+.div {
   top: -42px;
-  left: -18px;
-  border-radius: 50%;
   background-color: var(--color-palegreen);
   filter: blur(300px);
-  width: 1570px;
-  height: 309px;
+  width: 1440px;
+  height: 384px;
 }
-.div3 {
-  top: 26px;
-  left: 98px;
-  font-size: var(--font-size-16xl);
-  line-height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1288px;
-  height: 169px;
-  -webkit-text-stroke: 1px #000;
-}
-.div4 {
-  top: 757px;
-  left: -65px;
-  border-radius: 50%;
-  background-color: var(--color-palegreen);
-  filter: blur(300px);
-  width: 1570px;
-  height: 309px;
-}
-.div4,
-.div5,
+.div,
+.div1,
 .icon {
   position: absolute;
-}
-.div5 {
-  top: 297px;
-  left: -87px;
+  left: 0;
   border-radius: 50%;
-  background-color: var(--color-palegreen);
+}
+.div1 {
+  top: 716px;
+  background-color: var(--color-lime-100);
   filter: blur(300px);
-  width: 1570px;
-  height: 450px;
+  width: 1440px;
+  height: 308px;
 }
 .icon {
-  top: 374px;
-  left: 937px;
-  border-radius: var(--br-xl);
-  width: 257px;
-  height: 173px;
+  top: 0;
+  width: 1570px;
+  height: 1024px;
   object-fit: cover;
-  mix-blend-mode: linear-burn;
+  mix-blend-mode: lighten;
 }
-.aspirin {
+.mof {
   margin: 0;
 }
-.laboratoryChemicalSafety {
-  text-decoration: underline;
-}
-.laboratoryChemicalSafetySum1 {
-  color: inherit;
-}
-.ch3cooc6h4cooh {
-  margin-bottom: 0;
-}
-.c9h8o4Ch3cooc6h4cooh {
-  margin: 0;
-  padding-left: var(--padding-8xl);
-}
-.txt {
+.mofContainer1 {
   line-break: anywhere;
   width: 100%;
 }
-.div6 {
-  top: 202px;
-  left: 259px;
-  font-size: var(--font-inherit);
-  line-height: 25px;
-  font-family: var(--font-inherit);
-  color: var(--font-inherit);
-  text-align: left;
+.mofContainer {
+  top: 0;
+  left: 42px;
+  font-size: var(--font-size);
+  line-height: 120px;
   display: flex;
   align-items: center;
-  width: 639px;
-  height: 600px;
+  width: 1357px;
+  height: 322px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
 }
-.div6,
-.div8,
-.div9 {
+.div3,
+.div4,
+.mofContainer {
   position: absolute;
 }
-.div8 {
+.div3 {
   top: 0;
   left: 0;
   border-radius: var(--br-11xl);
-  background-color: var(--color-lime-100);
+  background-color: #14f700;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
   width: 307px;
   height: 103px;
 }
-.div9 {
+.div4 {
   top: 27px;
   left: 22px;
   line-height: 120px;
@@ -120,51 +68,72 @@
   justify-content: center;
   width: 263px;
   height: 49px;
+  -webkit-text-stroke: 1px #000;
 }
-.div11,
-.div7 {
-  position: absolute;
+.div2 {
+  top: 750px;
+  left: 567px;
   width: 307px;
   height: 103px;
-}
-.div7 {
-  top: 832px;
-  left: 259px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  font-size: 27px;
 }
-.div11 {
-  top: 8px;
-  left: 0;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-lime-100);
-}
-.div12 {
-  top: 0;
-  left: 26px;
-  line-height: 120px;
-}
-.div10,
-.div12,
-.icon1 {
+.div2,
+.div6,
+.div7 {
   position: absolute;
 }
-.icon1 {
-  top: 35px;
-  left: 250px;
-  width: 35px;
-  height: 40px;
-  object-fit: cover;
-  mix-blend-mode: linear-burn;
+.div6 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  filter: blur(2px);
+  width: 600px;
+  height: 50px;
+}
+.div7 {
+  top: 16px;
+  left: 14px;
+  line-height: 120px;
+  display: flex;
+  align-items: center;
+  width: 189px;
+  height: 30px;
+}
+.div5 {
+  top: 396px;
+  left: 441px;
+  width: 600px;
+  height: 50px;
+  text-align: left;
+  color: var(--color-lime-100);
+}
+.div10,
+.div5,
+.div8 {
+  position: absolute;
 }
 .div10 {
-  top: 824px;
-  left: 887px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 307px;
-  height: 120px;
+  top: 16px;
+  left: 15px;
+  line-height: 120px;
+  display: flex;
+  align-items: center;
+  width: 249px;
+  height: 30px;
 }
-.div {
+.div8 {
+  top: 521px;
+  left: 441px;
+  width: 600px;
+  height: 50px;
+  text-align: left;
+  color: var(--color-lime-100);
+}
+.a {
+  cursor: pointer;
+  text-decoration: none;
   position: relative;
   border-radius: var(--br-31xl);
   background-color: var(--color-white);
@@ -172,7 +141,7 @@
   height: 1024px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-11xl);
+  font-size: var(--font-size-xl);
   color: var(--color-black);
   font-family: var(--font);
 }
