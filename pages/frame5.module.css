@@ -183,7 +183,10 @@
   left: 119px;
   width: 1159px;
   height: 250px;
+  overflow: auto; /* Add this line to make the content scrollable */
 }
+
+
 .div12 {
   top: 24px;
   left: 428px;
