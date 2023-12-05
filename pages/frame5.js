@@ -47,10 +47,10 @@ const Frame5 = () => {
   <div className={styles.div10} onClick={onSwitchClick}>
         <div className={styles.div11}>
           <div className={`${styles.inner} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
-          <div className={styles.rectangleDiv} />
+          <div className={`${styles.rectangleDiv} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
         </div>
         {/* Добавлено состояние switch в качестве класса */}
-        <div className={`${styles.mol} ${isSwitchOn ? styles.switchOn : styles.switchOff}`}>
+        <div className={styles.mol}>
           Выводить всё в MOL
         </div>
       </div>
