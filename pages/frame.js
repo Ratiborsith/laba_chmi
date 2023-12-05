@@ -16,7 +16,7 @@ const Frame = () => {
       <div className={styles.div3}>Результаты анализа патентов</div>
       <div className={styles.div4} />
       <div className={styles.div5} />
-      <img className={styles.icon} alt="" src="/@2x.png" />
+      <img className={styles.icon} alt="" src="/1@2x.png" />
       <div className={styles.div6}>
         <span className={styles.txt}>
           <p className={styles.aspirin}>Aspirin</p>
@@ -78,7 +78,7 @@ const Frame = () => {
       <div className={styles.div10}>
         <div className={styles.div11} />
         <div className={styles.div12}>Скачать</div>
-        <img className={styles.icon1} alt="" src="/1@2x.png" />
+        <img className={styles.icon1} alt="" src="/11@2x.png" />
       </div>
     </div>
   );
