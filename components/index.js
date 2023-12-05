@@ -1,4 +1,4 @@
-import styles from "./component1.module.css";
+import styles from "./index.module.css";
 
 const Component1 = () => {
   return (

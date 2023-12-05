@@ -23,7 +23,7 @@
 .div4 {
   top: 93px;
   left: 138px;
-  font-size: 50px;
+  font-size: var(--font-size-31xl);
   line-height: 120px;
   text-align: left;
   display: inline-block;
@@ -38,7 +38,7 @@
 .icon {
   top: calc(50% - 400px);
   left: calc(50% + 47px);
-  border-radius: 100px;
+  border-radius: var(--br-81xl);
   width: 626px;
   height: 836px;
   object-fit: cover;
@@ -139,5 +139,5 @@
   text-align: center;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
-  font-family: var(--font);
+  font-family: var(--font-press-start-2p);
 }

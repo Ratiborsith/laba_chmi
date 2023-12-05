@@ -14,7 +14,7 @@ const Frame4 = () => {
   }, [router]);
 
   const onContainer2Click = useCallback(() => {
-    router.push("/");
+    router.push("/component");
   }, [router]);
 
   const onContainer3Click = useCallback(() => {
