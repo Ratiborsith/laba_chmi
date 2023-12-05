@@ -36,7 +36,13 @@ const Frame5 = () => {
   <div className={styles.div10}>
 
 
-  
+  const MyComponent = () => {
+  return (
+    <div className={styles.scroll-container}>
+      {/* Ваш контент здесь */}
+    </div>
+  );
+};
       
 
   
