@@ -1,5 +1,5 @@
 // Импорт файла стилей для кастомного scroll bar
-import scrollStyles from "./styles.module.css";
+import scrollStyles from "./frame5.module.css";
 
 const Frame5 = () => {
   const router = useRouter();
