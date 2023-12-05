@@ -214,6 +214,7 @@
 
 .switchOn {
   background-color: var(--color-red); /* Цвет для включенного состояния */
+  background: linear-gradient(#a4c238, #a4c238), #a4c238;
   color: var(--color-white); /* Цвет текста для включенного состояния */
   
 
@@ -222,5 +223,6 @@
 
 .switchOff {
   background-color: var(--color-gray); /* Цвет для выключенного состояния */
+  background: linear-gradient(#aadb93, #aadb93), #aadb93;
   color: var(--color-black); /* Цвет текста для выключенного состояния */
 }
