@@ -1,39 +1,40 @@
 import { useCallback } from "react";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./index.module.css";
 
-const Frame = () => {
+const Component = () => {
   const router = useRouter();
 
   const onContainerClick = useCallback(() => {
-    router.push("/frame3");
+    router.push("/frame4");
   }, [router]);
 
   return (
-    <div className={styles.div}>
+    <Link className={styles.a} href="/frame">
+      <div className={styles.div} />
       <div className={styles.div1} />
-      <div className={styles.div2} />
-      <div className={styles.div3}>Результаты анализа патентов</div>
-      <div className={styles.div4} />
-      <div className={styles.div5} />
-      <img className={styles.icon} alt="" src="/@2x.png" />
-      <div className={styles.div6}>
-        <span className={styles.txt}>
-          aspirin
-          UIPAC format
+      <img className={styles.icon} alt="" src="/--3@2x.png" />
+      <div className={styles.mofContainer}>
+        <span className={styles.mofContainer1}>
+          <p className={styles.mof}>Добро пожаловать в MOF!</p>
+          <p className={styles.mof}>Пожалуйста, авторизуйтесь</p>
         </span>
       </div>
-      <div className={styles.div7} onClick={onContainerClick}>
-        <div className={styles.div8} />
-        <div className={styles.div9}>Назад</div>
+      <div className={styles.div2} onClick={onContainerClick}>
+        <div className={styles.div3} />
+        <div className={styles.div4}>Войти</div>
       </div>
-      <div className={styles.div10}>
-        <div className={styles.div11} />
-        <div className={styles.div12}>Скачать</div>
-        <img className={styles.icon1} alt="" src="/1@2x.png" />
+      <div className={styles.div5}>
+        <div className={styles.div6} />
+        <div className={styles.div7}>Ваш логин</div>
       </div>
-    </div>
+      <div className={styles.div8}>
+        <div className={styles.div6} />
+        <div className={styles.div10}>Ваш пароль</div>
+      </div>
+    </Link>
   );
 };
 
-export default Frame;
+export default Component;

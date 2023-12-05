@@ -6,7 +6,7 @@ const Frame3 = () => {
   const router = useRouter();
 
   const onContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/frame");
   }, [router]);
 
   const onContainer1Click = useCallback(() => {

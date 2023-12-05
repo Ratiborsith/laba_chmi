@@ -11,17 +11,17 @@ body {
   --font-inherit: inherit;
 
   /* font sizes */
-  --font-size-11xl: 30px;
   --font-size-xl: 20px;
+  --font-size: 48px;
+  --font-size-11xl: 30px;
   --font-size-16xl: 35px;
   --font-size-6xl: 25px;
   --font-size-21xl: 40px;
-  --font-size: 48px;
 
   /* Colors */
   --color-white: #fff;
-  --color-black: #000;
   --color-lime-100: #2eff0c;
+  --color-black: #000;
   --color-palegreen: #9bff8b;
   --color-gray: rgba(255, 255, 255, 0.96);
   --color-lawngreen: #70ff18;
