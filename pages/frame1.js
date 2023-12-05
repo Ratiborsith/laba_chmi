@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import styles from "./frame1.module.css";
 
-const Frame11 = () => {
+const Frame1 = () => {
   const router = useRouter();
 
   const onContainerClick = useCallback(() => {
@@ -49,4 +49,4 @@ const Frame11 = () => {
   );
 };
 
-export default Frame11;
+export default Frame1;

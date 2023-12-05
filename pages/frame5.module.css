@@ -92,7 +92,7 @@
   top: -3px;
   left: -3px;
   border-radius: var(--br-71xl);
-  background-color: var(--color-lime-200);
+  background-color: #42ff00;
   border: 3px solid var(--color-black);
   box-sizing: border-box;
   width: 256px;
@@ -135,7 +135,7 @@
 .inner {
   top: -3px;
   left: -3px;
-  background-color: var(--color-lightgoldenrodyellow);
+  background-color: #d3ffc8;
   width: 256px;
   height: 131px;
 }
@@ -187,7 +187,7 @@
 .div12 {
   top: 24px;
   left: 428px;
-  font-size: var(--font-size-41xl);
+  font-size: 60px;
   line-height: 120px;
   display: flex;
   align-items: center;
@@ -206,5 +206,5 @@
   text-align: center;
   font-size: var(--font-size-11xl);
   color: var(--color-black);
-  font-family: var(--font-press-start-2p);
+  font-family: var(--font);
 }
