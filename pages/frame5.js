@@ -1,30 +1,33 @@
 // frame5.js
-import { useState, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import styles from "./frame5.module.css";
 
 const Frame5 = () => {
+
   const router = useRouter();
+
   const [isSwitchOn, setIsSwitchOn] = useState(false);
   const [isSwitch1On, setIsSwitch1On] = useState(false);
-  const onContainerClick = useCallback(() => {
-    router.push("/frame4");
-  }, [router]);
 
-  const onSwitchClick = useCallback(() => {
-    // Инвертируем текущее состояние switch при клике
+  const onContainerClick = () => {
+    router.push("/frame4");
+  };
+
+  const onSwitchClick = () => {
     setIsSwitchOn((prev) => !prev);
     // Дополнительные действия, если необходимо
-  }, []);
+  };
 
-  const onSwitch1Click = useCallback(() => {
-    // Инвертируем текущее состояние switch при клике
+  const onSwitch1Click = () => {
     setIsSwitch1On((prev) => !prev);
     // Дополнительные действия, если необходимо
-  }, []);
-
+  };
+  
   return (
+    <div className={styles.parentContainer}>
     <div className={styles.div}>
+      {/* Оберните все элементы, которые должны быть центрированы */}
       <div className={styles.div1} />
       <div className={styles.div2} />
       <div className={styles.div3} />
@@ -43,31 +46,30 @@ const Frame5 = () => {
             <p className={styles.p}>Smiles</p>
           </span>
         </div>
-        <div className={styles.div9} onClick={onSwitchClick}>
-          <div className={`${styles.inner} ${isSwitch1On ? styles.switch1On : styles.switch1Off}`} />
-          <div className={`${styles.rectangleDiv} ${isSwitch1On ? styles.switch1On : styles.switch1Off}`} />
-        </div>
+        <div className={styles.switchContainer1}>
+        <div
+          className={`${styles.switch1} ${isSwitch1On ? styles.on : styles.off}`}
+          onClick={onSwitch1Click}
+        />
+      </div>
       </div>
 
-  
-  <div className={styles.div10} onClick={onSwitchClick}>
-        <div className={styles.div11}>
-          <div className={`${styles.inner} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
-          <div className={`${styles.rectangleDiv} ${isSwitchOn ? styles.switchOn : styles.switchOff}`} />
-        </div>
+      <div className={styles.div10}>
+      <div className={styles.switchContainer}>
+        <div
+          className={`${styles.switch} ${isSwitchOn ? styles.on : styles.off}`}
+          onClick={onSwitchClick}
+        />
+      </div>
         {/* Добавлено состояние switch в качестве класса */}
         <div className={styles.mol}>
           Выводить всё в MOL
         </div>
       </div>
 
-  
-     
-
-
-
-  
       <div className={styles.div12}>Настройки</div>
+    
+    </div>
     </div>
   );
 };
